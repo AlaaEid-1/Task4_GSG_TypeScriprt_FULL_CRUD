@@ -1,15 +1,15 @@
 # Here is the Question formula, Output Code, and Run 
-#### Task 4: 🧠 Build a TypeScript Generic Repository System (Full CRUD)
-#### 🎯 Objective: Design and implement a generic, type-safe repository pattern in TypeScript to manage static in-memory data. You will apply generics, interfaces, and inheritance, while simulating typical backend logic.
+#### Task 4:  Build a TypeScript Generic Repository System (Full CRUD)
+#### Objective: Design and implement a generic, type-safe repository pattern in TypeScript to manage static in-memory data. You will apply generics, interfaces, and inheritance, while simulating typical backend logic.
 
-#### 📦 What You'll Build
+####  What You'll Build
 ###### A generic repository interface that supports CRUD + filtering
 ###### A base repository class that implements this interface
 ###### Three separate model repositories that inherit from the base
 ###### Static data for testing each model
 ###### A script that tests and logs each method
 
-#### 📋 Task Requirements
+#### Task Requirements
 ###### Define these Three Data Models  (User, Course, and Booking)  
 ###### Each model must include an ID as required and a few relevant properties.
 ###### Create a Generic Repository Interface. The interface must define the following methods, all returning Promises:
@@ -35,14 +35,14 @@
 
 
 --------------------------------------------------------------------------------------------------------------------------------------------------
-# 🎯 The Code and Run
+# The Code and Run
 ## This is Three Models (User, Course, and Booking)  
 <img width="646" height="69" alt="image" src="https://github.com/user-attachments/assets/952778f4-5d91-483c-a879-6f49f8ea4362" />
 <img width="673" height="136" alt="image" src="https://github.com/user-attachments/assets/13440ab0-5981-4f49-a088-ee3df6d3d900" />
 <img width="701" height="71" alt="image" src="https://github.com/user-attachments/assets/41f1b9dd-ec44-4289-909f-50f0107c7009" />
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------
-# 🎯 The First Model's User:
+# The First Model's User:
 #### This is user.showAllData:
              console.log("All User:", await user.showAllData());
              
@@ -69,7 +69,7 @@
 
 -------------------------------------------------------------------------------------------------------------------------------------------------
 
-# 🎯 The Second Model's course:
+#  The Second Model's course:
 #### This is course.showAllData:
             console.log("All Courses:", await course.showAllData());
 ![11](https://github.com/user-attachments/assets/23a67ab6-ea47-4a66-a903-811066e4a621)
@@ -95,7 +95,7 @@
 
 -------------------------------------------------------------------------------------------------------------------------------------------------
 
-# 🎯 The Third Model's booking:
+# The Third Model's booking:
 #### This is booking.showAllData:
             console.log("Bookings:", await booking.showAllData());
 <img width="396" height="344" alt="image" src="https://github.com/user-attachments/assets/5d0bd544-d5af-4cfd-acd7-d612a920b155" />
